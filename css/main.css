@@ -1,0 +1,75 @@
+body{
+    width: 900px;
+}
+.title_box{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:url(../img/main_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.title{
+    font-size: 48px;
+    color:white;
+
+}
+
+.title_file{
+    font-size: 36px;
+    color:white;
+    
+}
+
+.consept{
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* text-align: center; */
+ margin-right: 50px;
+ margin-left: 50px;
+}
+
+.consept_h2{
+    color:blue;
+}
+
+
+
+.content_box{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content_box_image{
+  width: 50%;
+
+}
+
+.content_box_text{
+  width:50%;
+  display: flex;
+  justify-content: center;
+  background: lightgray;
+  align-items: center;
+}
+
+
+
+.content_box_text_text{
+    width:85%;
+
+
+}
+
+.content_box_image_file{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+}
+
